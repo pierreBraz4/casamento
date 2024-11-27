@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Casamento</title>
+</head>
+<body>
+    <header>
+        <h1>O Casamento de Davi e Alek</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#detalhes">Detalhes</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Estamos muito felizes em compartilhar ester momento especial com vocâs!</p>
+    </section>
+
+    <section id="detalhes">
+        <h2>Detalhes do Evento</h2>
+        <p>Data: 30 de fevereiro de 2025</p>
+        <p>Local: Igreja Santa Maria, Rua Thomas Thurbando Na Casa Do Caralho Numero 69</p>
+        <p>Horário: 15:00 de Tarde</p>
+    </section>
+
+    <section id="imagens">
+        <h2>Galeria de Imagens</h2>
+        <div class="image-gallery">
+            <img src="/img/1000016766.jpg" width="200" height="300" alt="imagem 1">
+            <img src="/img/1730841220365.jpg" width="200" height="300" alt="imagem 2">
+        </div>
+    </section>
+
+    <section id="rsvp">
+        <h2>Confirme sua Preseça</h2>
+        <form action="rsvp-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="mensagem"></div>
+    </section>
+
+    <footer>
+        <p>Dev; Pierre, 2025 Davi e Alek. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
